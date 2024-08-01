@@ -7,7 +7,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Password", "密码"),
         ("Ready", "就绪"),
         ("Established", "已建立"),
-        ("connecting_status", "正在接入 RustDesk 网络..."),
+        ("connecting_status", "正在接入 私有服务器 网络..."),
         ("Enable service", "允许服务"),
         ("Start service", "启动服务"),
         ("Service is running", "服务正在运行"),
@@ -629,7 +629,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("enable-bot-desc", "1. 开启与 @BotFather 的对话。\n2. 发送命令 \"/newbot\"。 您将在完成此步骤后收到权杖 (Token)。\n3. 开始与您刚创建的机器人的对话。发送一则以正斜杠 (\"/\") 开头的消息来启用它，例如 \"/hello\"。"),
         ("cancel-2fa-confirm-tip", "确定要取消双重认证吗？"),
         ("cancel-bot-confirm-tip", "确定要取消 Telegram 机器人吗？"),
-        ("About RustDesk by Jack jiang", "关于 RustDesk by 江南浪子 重新编译修改"),
+        ("About RustDesk by Jack jiang", "关于 RustDesk  by 江南浪子 重新编译修改"),
         ("Send clipboard keystrokes", "发送剪贴板按键"),
         ("network_error_tip", "请检查网络连接，然后点击再试"),
     ].iter().cloned().collect();
